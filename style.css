@@ -1,0 +1,23 @@
+body{
+    background-image: url("imagens/fundo-madeira.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+div#phone{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+   
+}
+ul{
+    text-align: right;
+}
+li img{
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+
+}
