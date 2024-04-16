@@ -1,16 +1,17 @@
-body{
+body#principal{
     background-image: url("imagens/fundo-madeira.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
 }
-div#phone{
+section#phone{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50% );
-   
+    max-width: 311px;
+    max-height: 627;
 }
 ul{
     text-align: right;
@@ -18,6 +19,21 @@ ul{
 li img{
     height: 50px;
     border-radius: 100px;
-    margin-bottom: 20px;
-
+    margin: 10px 5px;
+    
+    
 }
+li img:hover{
+    transform: translate(-4px, -4px);
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s, border 0.5s;
+}
+iframe{
+    position: absolute;
+    left: 22px;
+    top: 8.3vh;
+    width: 270px;
+    height: 481px;
+}
+
